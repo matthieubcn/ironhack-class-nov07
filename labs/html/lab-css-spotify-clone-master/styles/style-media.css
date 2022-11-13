@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo|Poppins:400,600,700&display=swap");
+
+
+@media screen {
+    header > div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+}
+
+@media screen {
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-direction:column;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+
+@media screen{
+    .image-logo img {
+        width: 100px;
+    }
+}
+
+
+}
+
+@media screen {
+    header-container-2 {
+        height: 600px;
+        justify-content: center;
+    }
+}
+
+
+@media screen {
+    nav a :hover{
+        text-decoration: none;
+        color: #00B172;
+    }
+    
+}
+
+@media screen {
+    .header-background :nth-child(1) {
+        font-size:2em;
+        color: #FFF;
+    }
+    
+}
+
+@media screen {
+    .header-background :nth-child(2) {
+        font-size:1.2em;
+        color: #FFF;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    
+}
+
+@media screen {
+    .discover-container {
+        display:flex;
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+}
+
+/* Modified Kanye direction for mobile users */
+
+@media screen {
+    .kanye-container {
+        display:flex;
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+}
+
+@media screen {
+    .kanye-music-player img {
+        width: auto;
+    }
+}
+
+

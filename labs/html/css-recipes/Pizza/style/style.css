@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+*{
+margin:0;
+box-sizing: border-box;
+outline: 2px red solid;
+}
+
+html,body{
+    font-family:'Montserrat';
+    font-size:16px;
+    background-color: #e5e5e5;
+
+}
+
+nav ul {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding: 20px
+}
+
+@media (max-width:500px){
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+}   
+
+
+nav ul li{
+    list-style: none;
+    color: black;
+    padding: 20px;
+}
+
+.logo-header{
+    width: 100px;
+}
+
+header > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.background-color{
+    background-color: #e5e5e5;
+}
+
+#top-head {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top-head h2{
+    color: red;
+    font-size: 1.7em;
+    display:inline-block;
+    margin-top: 3rem;
+}
+
+#top-head p{
+    font-size: 1.2em;
+    margin: 1rem 10rem 1rem 10rem;
+    text-align:center;
+    font-style: italic;
+}
+
+/* Ecommerce section to be reused */
+
+#pizza-container{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+    #pizza-container{
+        display: flex;
+        align-items:stretch;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    }   
+    
+
+.pizza-card {
+    background-color: white;
+    width: 40%;
+    border:20px solid white;
+    margin: 20px;
+    display: flex;
+}
+
+@media (max-width; 600px){
+    .pizza-card {
+        display: flex;
+    }
+}
+
+
+.small-text-card-container{
+    padding-left:2rem;
+}
+
+.pizza-card h3{
+    font-size:1.2rem;
+    font-weight: 700;
+}
+ .pizza-card p{
+    font-style: italic;
+    padding-top: 1rem
+}
+
+.pizza-card .price{
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 500;
+    display: block;
+    padding-top: 1rem;
+}
+
+.pizza-card .submit{
+    list-style: none;   
+    color: black;
+    padding:10px;
+    background-color:#e5e5e5 ;
+    display:block;
+    width:50%;
+    mar
+}
+
+.pizza-card img{
+    width:200px;
+
+}

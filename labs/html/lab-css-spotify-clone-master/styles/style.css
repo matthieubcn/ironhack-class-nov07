@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo|Poppins:400,600,700&display=swap");
+
+html, body {
+    margin:0;
+    padding:0;
+    font-family: "poppins"   
+}
+
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+/* CSS header */
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-logo img {
+    width:250px;
+}
+
+nav{
+    width: 600px;
+}
+
+nav ul{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+nav ul li {
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+nav a{
+    text-decoration:none;
+    color: black;
+    font-size: 1.1em;
+
+}
+
+/*hover section */
+
+li:hover{
+    color:#00B172
+}
+
+li:hover {
+    border-bottom: #00B172 solid 2px;
+}
+
+s
+
+/* CSS first section */
+
+#header-container-2{
+    background-image: url(../images/landing.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* H1 et h2 */
+
+.header-background :nth-child(1) {
+    font-size:3em;
+    color: #FFF;
+}
+
+.header-background :nth-child(2) {
+    font-size:1.2em;
+    color: #FFF;
+}
+
+
+/*Modified in flex mode section 1 */
+
+.discover-container {
+    display:flex;
+    justify-content: space-around;
+}
+
+.discover-boxes{
+    width: 300px;
+    height: 300px;
+}
+
+#discover h3 {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline #00B172 5px;
+    padding-bottom: 20px;
+    display:block;
+}
+
+.discover-boxes img {
+    width: 90px;
+    height: 90px;
+}
+
+.discover-boxes h4{
+    font-size: 1.5em;
+    color:#00B172
+}
+
+.discover-boxes h4{
+    font-style:light;
+}
+
+
+
+/* Kanye parts */
+
+/*Modified in flex mode section kanye */
+
+.kanye-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #00B172;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.text-container h4{
+    font-size: white;
+    text-decoration: underline white 5px;
+}
+
+.kanye-box{
+
+    width: 90%;
+}
+.kanye-style{
+    background-color: #00B172;
+    margin-bottom: 50px
+}
+
+.text-container h4{
+    font-size: 1.5em;
+    color:white;
+}
+
+.kanye-box h5{
+    font-size: 1.2em;
+    color:white
+}
+
+.kanye-box p{
+    font-size: 1em;
+    color:white
+}
+
+
+.kanye-music-player img {
+    width: 300px;
+}
+
+.white-logo img {
+    width: 100px;
+
+}
