@@ -266,9 +266,83 @@ transition-delay: Specifies an optional delay.
 \*\*
 \*\*
 
-Trash Notes beloz
 
-### November 11
+### November 14
+
+## Java Script
+
+**Definition**
+
+JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.
+
+JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+
+**Good tips**
+
+console.log(document.domain)
+console.log (document.URL)
+console.log (document.title)
+console.log (document.doctype)
+console.log (document.body)
+console.log (document. all) to check all the elements
+console.log (document.all [3]) ==> Select the element inside the array
+console.log (document.all[3].textcontent = ("")
+console.log (document.all[3].innerHtml = ("")
+console.log (documents.links)
+console.log (documents.imgs)
+
+**Type of values**
+
+- String value in '' "" ``
+- Bolean
+-
+
+the best practise for ES6 JS is:
+console.log (` add the value here  ${array[number].name})
+
+if we have the value 
+
+console.log (`Users is ${name}`)
+console.table ==> Table of the arrays 
+
+**Variables**
+
+Please no more use the var
+
+Let and const
+
+let ==> a value can be reassigned
+const ==> a unique value
+
+For instance
+
+let firstName = "tuly"
+console.log(firstName)
+// The console prints tuly //
+
+firstname = "Feuch"
+console.log (firstName)
+// the console log prints Feuch //
+
+
+
+**Conditions**
+
+if (conditions){
+    run the conditions
+}
+
+*Prompt request the user to type something*
+const number = prompt("enter a number: ")
+
+
+
+
+
+
+### Trash Notes below to be cleaned
+
+## November 11
 
 1.1 Spotify case
 
@@ -296,4 +370,5 @@ section > external div > child div
 1.3 Grid content
 https://css-tricks.com/snippets/css/complete-guide-grid/
 
+## November 1 
 
