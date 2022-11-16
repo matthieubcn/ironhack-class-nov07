@@ -324,7 +324,22 @@ firstname = "Feuch"
 console.log (firstName)
 // the console log prints Feuch //
 
+if you want to pass the value the easiest way is 
 
+let firstName = "tuly"
+console.log (firstname)
+the console print tuly
+
+firstName = "Zizou"
+console.log (firstname)
+the console print zizou
+
+typeof ==> return the type of the operehands value
+
+-number
+-string
+-boolean
+-undefined
 
 **Conditions**
 
@@ -335,8 +350,58 @@ if (conditions){
 *Prompt request the user to type something*
 const number = prompt("enter a number: ")
 
+The method compareTo() is used for comparing two strings lexicographically in Java. Reassigned a value:
+
+1.if (string1 > string2) it returns a positive value.
+2.if both the strings are equal lexicographically i.e.(string1 == string2) it returns 0.
+3.if (string1 < string2) it returns a negative value.
+
+**while statement**
+let i = 0;
+while (i <= 100) {
+  console.log(i);
+  i++;
+
+*the break statement*
+When the break statement is used in a loop, it breaks the loop and continues executing the code after the loop (if there’s any code after).
+The continue will run the code.
 
 
+## November 15
+
+**Java Script lab **
+➜  section-03-js git:(main) ✗ node.index
+
+** Split and join in nativos
+Let hacker1 = ''
+hacker1 = 'tuly'
+hacker2 = 'zizou'
+
+let UpperCaseName = hacker1.toUpperCase().split().join()
+console.log(UpperCaseName);
+
+the output is T U L Y
+
+let reverseNameSimplified = hacker2.split('')
+The output is an array ['z', 'i' , 'z', 'o', 'u'];
+let reverseNameSimplified = hacker2.split('').reverse().join('')
+
+**NaN stands for Not a Number and it represents a computational error. It is a result of an incorrect mathematical operation, such as:
+
+const name = "tuly"
+const name2 = tuly/2
+
+console.log (name2)
+output print nan
+
+Truthy	Falsy
+true (the keyword)	false (the keyword)
+'0' (as string)	0 (as number)
+'false' (as string)	'' (empty string)
+{}	null
+[ ]	undefined
+35 (as number)	NaN
+new Date()	
 
 
 
